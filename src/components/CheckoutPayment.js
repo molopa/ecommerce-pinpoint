@@ -59,6 +59,6 @@ const SummaryText = styled.div`
 
 const TotalText = styled.div`
   font-size: 1.2em;
-  font-weight: bold
+  font-weight: bold;
   color: #B12704;
 `
