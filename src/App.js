@@ -4,7 +4,7 @@
 import React from 'react'
 import { Container, Header } from 'semantic-ui-react'
 import { withAuthenticator } from 'aws-amplify-react'
-
+import { AmplifySignOut } from '@aws-amplify/ui-react'
 import signUpConfig from './config/signUpConfig'
 
 import InitState from './pages/InitState'
@@ -39,10 +39,12 @@ function App() {
             <Container style={{ marginTop: '2em' }}>
                 <ItemTable type='companion' />
             </Container>
+            <AmplifySignOut />
         </div>
     );
 }
 
+//export default withAuthenticator(App, { usernameAttributes: 'email', signUpConfig:{ hiddenDefaults:["phone_number"] } });
 export default withAuthenticator(App, { usernameAttributes: 'email', signUpConfig });
 
 const styles = {

@@ -1,0 +1,20 @@
+{
+    "tiendita": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-awsamplifyecommerce-tiendita-44237-authRole",
+            "UnauthRoleArn": "arn:aws:iam::684861436315:role/amplify-awsamplifyecommerce-tiendita-44237-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::684861436315:role/amplify-awsamplifyecommerce-tiendita-44237-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-awsamplifyecommerce-tiendita-44237-deployment",
+            "UnauthRoleName": "amplify-awsamplifyecommerce-tiendita-44237-unauthRole",
+            "StackName": "amplify-awsamplifyecommerce-tiendita-44237",
+            "StackId": "arn:aws:cloudformation:us-east-1:684861436315:stack/amplify-awsamplifyecommerce-tiendita-44237/962d5680-d931-11ea-b830-0e794c84352f",
+            "AmplifyAppId": "d2uk5xr7bkzmjg"
+        },
+        "categories": {
+            "auth": {
+                "awsamplifyecommerceauth": {}
+            }
+        }
+    }
+}
